@@ -12,7 +12,7 @@ export default function handler(req, res) {
   }
 
   const CODES = {
-    ABC123: {
+    '04:E9:A5:91:C2:2A:81': {
       status: 'VALID',
       used: false,
       access_date: new Date().toISOString(),
