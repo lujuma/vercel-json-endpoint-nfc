@@ -89,6 +89,11 @@ export default function handler(req, res) {
           key: 'reason',
           title: 'Motivo',
           value: 'Código no reconocido'
+        },
+        {
+          key: 'code',
+          title: 'Código',
+          value: code
         }
       ]
     });
