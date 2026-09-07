@@ -83,6 +83,7 @@ export default function handler(req, res) {
     return res.status(200).json({
       status: 'DENIED',
       used: false,
+      code_received: code,  // campo extra
       properties: [
         {
           key: 'reason',
